@@ -25,3 +25,10 @@
 /* Keep the original band artwork visible in the header. */
 .site-header .wordmark{width:150px!important;min-width:150px!important;height:64px!important;overflow:visible!important;display:flex!important;align-items:center!important}
 .site-header .wordmark .header-logo{display:block!important;width:100%!important;height:58px!important;max-width:150px!important;object-fit:contain!important;object-position:left center!important;opacity:1!important;visibility:visible!important;mix-blend-mode:screen!important}
+
+
+/* Full-width Chasing Allura artwork banner */
+.brand-banner{width:100%;background:#000;display:flex;justify-content:center;align-items:center;overflow:hidden;border-bottom:1px solid #292629;padding:20px 5vw}
+.brand-banner img{display:block;width:100%;max-width:1080px;height:clamp(220px,34vw,390px);object-fit:contain;object-position:center;}
+@media(max-width:800px){.brand-banner{padding:12px 4vw}.brand-banner img{height:260px}}
+@media(max-width:480px){.brand-banner img{height:230px}}
