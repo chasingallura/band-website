@@ -1,0 +1,33 @@
+name: Install Chasing Allura website files
+
+on:
+  push:
+    paths:
+      - "chasing-allura-cms-website.zip"
+      - ".github/workflows/install-website.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Extract website package
+        run: |
+          test -f chasing-allura-cms-website.zip
+          mkdir -p /tmp/ca-site
+          unzip -q chasing-allura-cms-website.zip -d /tmp/ca-site
+          test -f /tmp/ca-site/chasing-allura-site/index.html
+          cp -a /tmp/ca-site/chasing-allura-site/. .
+          rm -f chasing-allura-cms-website.zip
+      - name: Commit website files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add Chasing Allura website" || echo "No changes to commit"
+          git push
