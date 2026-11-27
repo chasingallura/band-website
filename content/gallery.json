@@ -1,3 +1,52 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "Live guitar performance",
+      "caption": "ON STAGE",
+      "image": "/assets/Screenshot_20260727-192457.png",
+      "sort_order": 1
+    },
+    {
+      "title": "Live bass performance",
+      "caption": "FEEL THE LOW END",
+      "image": "/assets/Screenshot_20260727-192526.png",
+      "sort_order": 2
+    },
+    {
+      "title": "Live band portrait",
+      "caption": "IN THE LIGHT",
+      "image": "/assets/Screenshot_20260727-192514.png",
+      "sort_order": 3
+    },
+    {
+      "title": "Guitarist on stage",
+      "caption": "LOUD AND PROUD",
+      "image": "/assets/Screenshot_20260727-192511.png",
+      "sort_order": 4
+    },
+    {
+      "title": "Drummer live",
+      "caption": "BEHIND THE KIT",
+      "image": "/assets/Screenshot_20260727-192523.png",
+      "sort_order": 5
+    },
+    {
+      "title": "Chasing Allura live",
+      "caption": "LIVE AT THE SHOW",
+      "image": "/assets/Screenshot_20250826-130220.png",
+      "sort_order": 6
+    },
+    {
+      "title": "Band photo",
+      "caption": "CHASING ALLURA",
+      "image": "/assets/IMG_20250823_082902.jpg",
+      "sort_order": 7
+    },
+    {
+      "title": "Live crowd and band",
+      "caption": "THE CROWD. THE SOUND.",
+      "image": "/assets/IMG_20250823_090338.heic",
+      "sort_order": 8
+    }
+  ]
 }
