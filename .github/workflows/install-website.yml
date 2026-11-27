@@ -23,6 +23,8 @@ jobs:
           unzip -q chasing-allura-cms-website.zip -d /tmp/ca-site
           test -f /tmp/ca-site/chasing-allura-site/index.html
           cp -a /tmp/ca-site/chasing-allura-site/. .
+          rm -rf admin
+          sed -i '/netlify-identity-widget.js/d' index.html || true
           rm -f chasing-allura-cms-website.zip
       - name: Commit website files
         run: |
