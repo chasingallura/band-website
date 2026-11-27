@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "title": "Ever After",
+      "type": "Single",
+      "description": "A reflection on loss, memory, and what may wait beyond.",
+      "artwork": "",
+      "spotify_url": "",
+      "apple_music_url": "",
+      "youtube_url": "",
+      "bandcamp_url": "",
+      "sort_order": 1
+    },
+    {
+      "title": "We Face the Dawn",
+      "type": "Single",
+      "description": "A new spark. A new chapter. A band finding its fire again.",
+      "artwork": "",
+      "spotify_url": "",
+      "apple_music_url": "",
+      "youtube_url": "",
+      "bandcamp_url": "",
+      "sort_order": 2
+    }
+  ]
+}
